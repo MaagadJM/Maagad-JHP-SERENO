@@ -180,6 +180,10 @@ section {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .modal-title {
+    padding-top: 0;
+  }
 }
 
 /* CSS for the navbar background color */
@@ -444,6 +448,10 @@ section {
   text-align: center;
 }
 
+.modal-title {
+  padding-top: 80px;
+}
+
 #synp-bdy {
   background-color: #fff;
 }
@@ -483,7 +491,6 @@ section {
 /*--------------------------------------------------------------
 # SECOND SECTION  /  About Us
 --------------------------------------------------------------*/
-
 
 #tfsi-abt {
   color: #444444;
@@ -609,6 +616,11 @@ section {
 /*--------------------------------------------------------------
 # THE SELLING PROCESS
 --------------------------------------------------------------*/
+@media (max-width: 991px) {
+  .modal-title {
+    padding-top: 20px;
+  }
+}
 
 @media (min-height: 767px) {
   #sps-container {
@@ -616,10 +628,13 @@ section {
     height: 100% !important;
     width: auto;
   }
-  
 }
 
 @media (max-width: 767px) {
+  /* .modal-title {
+    padding-top: 20px;
+  } */
+
   #sps-container {
     position: relative;
     height: 200vh !important;
@@ -633,7 +648,6 @@ section {
   }
 
   #ftr-icn {
-  
     text-align: center;
     /* margin: auto;
     padding: auto; */
@@ -643,7 +657,6 @@ section {
   #wwu-modal {
     margin-top: 0 !important;
   }
-  
 }
 
 #sps-container {
@@ -1337,7 +1350,6 @@ section {
 }
 
 #ftr-icn img {
-
   background: linear-gradient(145deg, #181818, #1d1d1d);
   box-shadow: 9px 9px 18px #171717, -9px -9px 18px #1f1f1f;
 
@@ -1354,7 +1366,6 @@ section {
   
   padding: 10px;
 } */
-
 
 #right-ftr {
   /* position: relative;
