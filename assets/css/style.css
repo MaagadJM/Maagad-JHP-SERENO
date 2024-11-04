@@ -81,7 +81,7 @@ section {
 /* #spnrlodr h1 { */
 #colapsing-nav {
   position: fixed;
-  color: #e60000;
+  /* color: #e60000; */
 
   text-align: center;
 
@@ -101,7 +101,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background-color: #3b4c5c;
+  background-color: #1b1b1b;
   width: 50px;
   height: 50px;
   border-radius: 50px;
@@ -115,7 +115,7 @@ section {
 } */
 
 .home-nav:hover {
-  background-color: #3b4c5c;
+  background-color: #05504c;
 }
 
 .home-nav.active {
@@ -343,7 +343,7 @@ section {
 .animated-title > div.text-top {
   /* border-bottom: 1vmin solid #0000005e; */
   border-bottom: 1vmin solid #0000005e;
-  border-radius: 20px;
+  border-radius: 1px;
   top: 0;
 
   position: relative;
@@ -455,7 +455,9 @@ section {
 }
 
 #synp-mdl-btn1:hover {
-  background-color: #1b1b1ba2;
+  /* background-color: #1b1b1ba2; */
+  background: linear-gradient(145deg, #ffffff93, #1d1d1d);
+  box-shadow: 4px 4px 4px #c2c2c25e, -3px -3px 18px #1f1f1f;
 }
 
 #synp-sbmt-btn {
@@ -482,10 +484,16 @@ section {
 # SECOND SECTION  /  About Us
 --------------------------------------------------------------*/
 
+
 #tfsi-abt {
   color: #444444;
   font-weight: bold;
   font-size: 20px;
+}
+
+#tfsi-abt-i {
+  width: 100%;
+  margin: auto;
 }
 
 #tfsi-abt-i .icn-cont-img {
@@ -602,7 +610,16 @@ section {
 # THE SELLING PROCESS
 --------------------------------------------------------------*/
 
-@media (max-width: 768px) {
+@media (min-height: 767px) {
+  #sps-container {
+    position: relative;
+    height: 100% !important;
+    width: auto;
+  }
+  
+}
+
+@media (max-width: 767px) {
   #sps-container {
     position: relative;
     height: 200vh !important;
@@ -1089,7 +1106,9 @@ section {
 }
 
 #wwu-mdl-btn2:hover {
-  background-color: #1b1b1b;
+  /* background-color: #1b1b1b; */
+  background: linear-gradient(145deg, #ffffff93, #1d1d1d);
+  box-shadow: 4px 4px 4px #c2c2c25e, -3px -3px 18px #1f1f1f;
 }
 
 #wwu-sbmt-btn {
@@ -1324,6 +1343,11 @@ section {
 
   padding: 10px;
 }
+
+#ftr-icn img:hover {
+  background: linear-gradient(145deg, #ffffff93, #1d1d1d);
+  box-shadow: 9px 9px 18px #c2c2c25e, -9px -9px 18px #1f1f1f;
+}
 /* #sereno-icon {
   background: linear-gradient(145deg, #181818, #1d1d1d);
   box-shadow: 9px 9px 18px #171717, -9px -9px 18px #1f1f1f;
@@ -1331,9 +1355,6 @@ section {
   padding: 10px;
 } */
 
-#ftr-icn img:hover {
-  background-color: #ffffff21;
-}
 
 #right-ftr {
   /* position: relative;
