@@ -541,6 +541,55 @@ section {
   object-fit: cover; /* Cover the entire container */
 }
 
+/* ============================= */
+
+#second-sct-bg {
+  /* background-image: url("/assets/img/second-section-BG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  object-fit: cover; */
+
+
+  background: linear-gradient(225deg, #cacaca, #f0f0f0);
+  box-shadow:  -20px 20px 60px #bebebe,
+               20px -20px 60px #ffffff;
+
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: none;
+}
+#laptop-bg {
+  /* background-image: url("/assets/img/second-section-BG2.png");
+  background-size: contain;
+  background-repeat: no-repeat; */
+
+  background-color: #ffffff;
+  padding-right: 0px !important;
+  border: none;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+#laptop-inner-bg {
+  
+  background: linear-gradient(225deg, #cacaca, #f0f0f0);
+  box-shadow:  -20px 20px 60px #bebebe,
+               20px -20px 60px #ffffff;
+  margin-left: 30px;
+
+  margin-top: 0;
+  margin-bottom: 38px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  padding-bottom: 30px;
+}
+
+/* =============================== */
+
 .icn-cont ul {
   margin: 0;
   padding: 0;
@@ -595,12 +644,12 @@ section {
   }
 }
 
-.about .underline-animation {
+#second-sct-bg .underline-animation {
   position: relative;
   text-decoration: none;
 }
 
-.about .underline-animation::after {
+#second-sct-bg .underline-animation::after {
   content: "";
   position: absolute;
   left: 0;
