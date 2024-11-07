@@ -550,10 +550,8 @@ section {
 
   object-fit: cover; */
 
-
   background: linear-gradient(225deg, #cacaca, #f0f0f0);
-  box-shadow:  -20px 20px 60px #bebebe,
-               20px -20px 60px #ffffff;
+  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
 
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
@@ -574,10 +572,8 @@ section {
 }
 
 #laptop-inner-bg {
-  
   background: linear-gradient(225deg, #cacaca, #f0f0f0);
-  box-shadow:  -20px 20px 60px #bebebe,
-               20px -20px 60px #ffffff;
+  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
   margin-left: 30px;
 
   margin-top: 0;
@@ -683,6 +679,10 @@ section {
   /* .modal-title {
     padding-top: 20px;
   } */
+
+  #CMP-cont h1 {
+    margin-top: 40px;
+  }
 
   #sps-container {
     position: relative;
